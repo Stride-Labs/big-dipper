@@ -6,6 +6,13 @@ As the `Cosmos` ecosystem keeps growing, the architecture of the legacy `Big Dip
 
 [Forbole](https://forbole.com) is ending the support for the legacy `Big Dipper` on 1st Dec 2021. If you would like to have an easy-to-deploy block explorer with `Ledger` support for your internal testnets using `Cosmos SDK v0.42.x`, you can still fork or clone this repositary.  
 
+# Stride Instructions
+
+Please run `meteor --port 3000 --settings gaia_local.json` to run the block explorer for Gaia's local chain.
+
+Please run `meteor --port 3000 --settings stride_Local.json` to run the block explorer for Stride's local chain.
+
+Please note, you CANNOT run these both at once.
 # Big Dipper :sparkles:
 
 Block Explorer for Cosmos
